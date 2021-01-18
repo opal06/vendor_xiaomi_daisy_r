@@ -20,27 +20,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-<<<<<<< HEAD
-	name: "libbtconfigstore",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/libbtconfigstore.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/libbtconfigstore.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-=======
->>>>>>> eed9f42... msm8953-common: Upgrade BT stack from sunfish
 	name: "libaudio_log_utils",
 	owner: "xiaomi",
 	strip: {
