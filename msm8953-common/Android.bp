@@ -20,6 +20,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
 	name: "libbtconfigstore",
 	owner: "xiaomi",
 	strip: {
@@ -38,6 +39,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+=======
+>>>>>>> eed9f42... msm8953-common: Upgrade BT stack from sunfish
 	name: "libaudio_log_utils",
 	owner: "xiaomi",
 	strip: {
